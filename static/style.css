@@ -11,6 +11,11 @@ body {
 #main {
     width: 100%;
     position: relative;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
 }
 
 nav {
@@ -77,13 +82,13 @@ a {
 
 .main-text h1 {
     font-size: 3.5em;
-    color: #1c3548;
+    color: #fff;
     margin: 0px 0px 10px 0px;
     line-height: 60px;
 }
 
 .main-text p {
-    color: gray;
+    color: rgb(226, 226, 226);
 }
 
 .a-btn {

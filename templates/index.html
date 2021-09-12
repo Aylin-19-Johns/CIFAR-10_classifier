@@ -14,7 +14,7 @@
     <section class="main" {% if  prediction %}
         style="background-image: url('/static/{{prediction[0]}}');background-size: cover;background-repeat: no-repeat;background-position: center; height: 100vh; position: relative;"
         {% else %}
-        style="background-image: url('https://thumbs.dreamstime.com/b/apricot-fruit-vector-cartoon-set-icon-illustration-peach-white-background-isolated-icons-179829768.jpg);background-size: cover;background-repeat: no-repeat;background-position: center; height: 100vh; position: relative;"
+        style="background-image: url('https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg');background-size: cover;background-repeat: no-repeat;background-position: center; height: 100vh; position: relative;"
         {% endif %}>
         <nav>
 
@@ -33,26 +33,26 @@
         <div class="slider-item">
             <section>
                 <div style="position: relative; margin-top: 0%;">
-                    <h1 style="text-align: center; font-size: 35px;">CLASSIFIER</h1>
+                    <h1 style="text-align: center; font-size: 35px; color:white;">CLASSIFIER</h1>
                 </div>
             </section><br>
             <div style="text-align: center; position: re;">
-                <img src="https://th.bing.com/th/id/OIP.wL6SrzJJGluAotZNSN1pwQHaE8?w=291&h=194&c=7&o=5&dpr=1.25&pid=1.7"
+                <img src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg"
                     height="200px" width="200px" alt="image not available" style="border-end-start-radius: 20%;">
-                <img src="https://th.bing.com/th/id/OIP.SpxTza2RzSFjxosWLwpfxwHaE8?w=234&h=180&c=7&o=5&dpr=1.25&pid=1.7"
+                <img src="https://media.istockphoto.com/photos/colored-powder-explosion-abstract-closeup-dust-on-backdrop-colorful-picture-id1072093690?k=20&m=1072093690&s=612x612&w=0&h=Ns3WeEm1VrIHhZOmhiGY_fYKvIlbJrVADLqfxyPQVPM="
                     height="200" width="200" style="border-end-end-radius: 20%;">
             </div>
-            <h1 style="text-align: center;">UPLOAD TO PREDICT</h1>
+            <h1 style="text-align: center; color: wheat;">UPLOAD TO PREDICT</h1>
 
 
-            <div style="text-align: center;">
+            <div style="text-align: center;  color: wheat;">
                 <form method="POST" enctype="multipart/form-data">
                     <input type="file" name="imagefile"> <br><br>
                     <center> <input type="submit" class="a-btn" value="submit"></center>
                 </form>
             </div>
             {% if prediction %}
-            <h1 style="text-align: center; font-size: xx-large;">{{prediction[1]}}</h1>
+            <h1 style="text-align: center; font-size: xx-large; color: wheat;">{{prediction[1]}}</h1>
             {% else %}
             <br><br><br><br><br><br><br><br><br><br><br><br><br>{% endif %}
         </div>
